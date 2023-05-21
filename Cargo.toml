@@ -1,0 +1,11 @@
+[package]
+name = "squircle"
+version = "0.1.0"
+authors = ["Sergei Zharinov <zharinov@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = 3
